@@ -30,3 +30,6 @@ button{
     transform: translate(-0px, -5px);
     transition: all 1.5s ease;
 }
+ h1{
+    font-size: 1rem;
+ }
