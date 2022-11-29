@@ -1,0 +1,32 @@
+.color{
+    color: blue;
+}
+
+button{
+    padding: 20px 50px; /*กำหนดขอ กว้าง ยาว สูง*/
+    font-size: 1rem;
+    cursor: pointer;
+    background: transparent;
+    transition: all 1s ease;
+}
+
+.btn1{
+    background-color: greenyellow;
+    margin: 10px 10px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    
+   
+}
+.btn2{
+    background-color: red;
+    margin: 10px 10px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    
+   
+}
+.btn1:hover,.btn2:hover{
+    transform: translate(-0px, -5px);
+    transition: all 1.5s ease;
+}
